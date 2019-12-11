@@ -26,7 +26,7 @@
 
 //don't need the js, node assumes it for you
 
-var logger = require('./logger');
+const logger = require('./logger');
 
 logger.log("message");
 // console.log(logger);
